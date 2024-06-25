@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>APO Fundamentos para Programação Internet</title>
+</head>
+<body>
+    <section class="form-container">
+        <div class="container">
+            <form action="curriculo.php" method="post">
+                <h1>Informe os dados para seu Curriculo</h1>
+                <p>Preencha o formulário abaixo com seus <br>
+                    Dados pessoais</p>
+                <div class="input-single">
+                    <input type="text" name="nome" id="nome-box" class="input" autocomplete="off">
+                    <label for="nome-box">Nome Completo</label>
+                </div>
+                <div class="input-single">
+                    <input type="text" name="cargo" id="cargo-box" class="input" autocomplete="off">
+                    <label for="cargo-box">Cargo</label>
+                </div>
+                <div class="input-single">
+                    <input type="email" name="email" id="email-box" class="input" autocomplete="off">
+                    <label for="email-box">Email</label>
+                </div>
+                <div class="input-single">
+                    <input type="tel" name="telefone" id="tel-box" class="input" autocomplete="off">
+                    <label for="telefone-box">Telefone</label>
+                </div>
+                <div class="input-single">
+                    <input type="text" name="endereco" id="end-box" class="input" autocomplete="off">
+                    <label for="end-box">Endereço</label>
+                </div>
+                <div class="date">
+                    <input  type="date" name="Data_Nascimento" id="Data_Nascimento" class="date" autocomplete="off">
+                    <label for="Data_Nascimento">Data de Nascimento</label>
+                </div>
+                <p>Preencha o formulário abaixo com sua <br> 
+                    Escolaridade</p>
+                <div class="input-single">
+                    <input  type="text" name="grau" id="grau" class="input" autocomplete="off">
+                    <label for="grau">Grau</label>
+                </div>
+                <div class="input-single">
+                    <input  type="text" name="INSTITUICAO" id="INSTITUICAO" class="input" autocomplete="off">
+                    <label for="INSTITUICAO">Instituição</label>
+                </div>
+                <div class="date">
+                    <input  type="date" name="Data_ini_Escola" id="Data_ini_Escola" class="date" autocomplete="off">
+                    <label for="Data_ini_Escola">Data de Inicio</label>
+                </div>
+                <div class="date">
+                    <input  type="date" name="Data_fin_Escola" id="Data_fin_Escola" class="date" autocomplete="off">
+                    <label for="Data_fin_Escola">Data de Final</label>
+                </div>
+                <p>Preencha o formulário abaixo com sua <br> 
+                    Experiência Profissional</p>
+                <div class="input-single">
+                    <input  type="text" name="titulo" id="EX_Titulo" class="input" autocomplete="off">
+                    <label for="EX_Titulo1">Função</label>
+                </div>
+                <div class="input-single">
+                    <input  type="text" name="empresa" id="EX_Empresa" class="input" autocomplete="off">
+                    <label for="EX_Empresa1">Empresa</label>
+                </div>
+                <div class="date">
+                    <input  type="date" name="Data_ini_Empresa" id="EX_DI" class="date" autocomplete="off">
+                    <label for="Data_ini_Empresa1">Data de Inicio</label>
+                </div>
+                <div class="date">
+                    <input  type="date" name="Data_fin_Empresa" id="EX_DF" class="date" autocomplete="off">
+                    <label for="Data_fin_Empresa1">Data de Final</label>
+                </div>
+                <div class="resumo">
+                    <textarea type="textarea" name="resumo" id="resumo" class="textarea" autocomplete="off" 
+                    maxlength="1000"></textarea>
+                    <label for="textarea">Resumo Profissional</label>                        
+                    </textarea>
+                </div>               
+                <div class="btn"><input type="submit" value="Enviar"></div>   
+        </div>   
+    </section>
+</body>
+</html>
